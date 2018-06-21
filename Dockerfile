@@ -1,3 +1,4 @@
-FROM phillipsj/eks-tools-base:0.1-beta
+FROM phillipsj/eks-tools-base:0.2-beta
 
-COPY .kube .kube
+COPY .kube /root/.kube
+
